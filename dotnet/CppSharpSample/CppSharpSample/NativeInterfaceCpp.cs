@@ -1,4 +1,5 @@
-﻿namespace CppSharpSample
+﻿using System;
+namespace CppSharpSample
 {
     public sealed class NativeInterfaceCpp : IDisposable
     {
