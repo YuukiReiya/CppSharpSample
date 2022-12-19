@@ -1,4 +1,7 @@
-﻿var currentDir = Environment.CurrentDirectory;
+﻿using System;
+using System.IO;
+
+var currentDir = Environment.CurrentDirectory;
 while (true)
 {
     var info = Directory.GetParent(currentDir);
